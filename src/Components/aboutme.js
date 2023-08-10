@@ -6,7 +6,7 @@ const Aboutme = () => {
   return (
     <div className="aboutme">
       <div className="editphoto">
-        <img src={myEditPhoto} alt="My edited photo" />
+        <img src={myEditPhoto} alt="My edited" />
       </div>
       <div className="aboutDesc">
         <h1>About me</h1>
