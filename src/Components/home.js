@@ -37,7 +37,7 @@ const Home = () => {
         <button onClick={handleGetInTouch}>Get In touch</button>
       </div>
       <div className="myphoto">
-        <img src={myphoto} alt="Ajay's passport photo"></img>
+        <img src={myphoto} alt="Ajay's passport"></img>
       </div>
     </div>
   );
