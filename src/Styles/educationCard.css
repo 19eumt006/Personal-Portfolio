@@ -1,4 +1,25 @@
-.Educationcard{
+.fullCard {
+    margin-top: 25px;
+    margin-bottom: 25px;
     display: flex;
     justify-content: space-between;
+    gap: 25px;
+    width: 95%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px 8px rgba(0, 0, 0, 0.1);
+    padding: 24px 24px 24px 24px;
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    cursor: pointer;
 }
+.Educationcard {
+    display: flex;
+    justify-content: left;
+    gap: 25px;
+    
+  }
+  .Educationcard>div>img {
+    width: 175px;
+    padding-right: 0%;
+  }

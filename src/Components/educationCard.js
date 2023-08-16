@@ -1,16 +1,23 @@
 import React from "react";
 import '../Styles/educationCard.css'
-const EducationCard = () => {
+const EducationCard = ({props}) => {
     return(
-        <div className="Educationcard">
+        <div className="fullCard">
+            <div className="Educationcard">
             <div>
-                <h1>Sri Krishna College of Engineering and technology</h1>
-                <p>BE (Mechatronics)</p>
+                <img src={props.imageUrl} alt= {props.alt}></img>
             </div>
             <div>
-                <h1>Grade: 8.98</h1>
+                <h1>{props.InstituteName}</h1>
+                <h2>{props.course} | {props.year}</h2>
+            </div>
+            
+            </div>
+            <div className="grade">
+                <h1>{props.Grade}</h1>
             </div>
         </div>
+        
     )
 }
 export default EducationCard;
