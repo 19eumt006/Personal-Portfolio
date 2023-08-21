@@ -7,7 +7,7 @@ function ExperienceCard() {
     <Container>
         <div className="expDetails">
           <div>
-            <img src ={vuramlogo} ></img>
+            <img src ={vuramlogo} alt='vuram-logo'></img>
           </div>
           <div>
             <h1>WNS Vuram Technology Solutions</h1>
