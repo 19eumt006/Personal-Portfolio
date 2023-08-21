@@ -6,7 +6,7 @@ const EducationDetails = {
     education: [
         {
             InstituteName: "Sri Krishna College of Engineering and Technology",
-            imageUrl: "https://www.iciriac.in/static/media/skcetLogo.31d2bf13215ad9e10734.png",
+            imageUrl: "/skcetlogo.png",
             alt: "skcet-logo",
             course: "BE - Mechatronics",
             year: "2019 - 2023",
@@ -36,9 +36,11 @@ const EducationDetails = {
 
 const Education = () => {
     return (
+        
         <div className="education">
+            <h1>Education</h1>
             <div>
-                <h1>Education</h1>
+                
                 {EducationDetails.education.map((value, index)=> 
                 {
                     return <EducationCard key = {index} props = {value}></EducationCard>
